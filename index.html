@@ -20,7 +20,7 @@
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" width="30" height="30" alt="" loading="lazy">
         </a>
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand" href="#">Página Inicial</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Sobre</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
@@ -37,13 +37,13 @@
           </div>
         </div>
       </nav>
-    <div class="mt-5"></div>
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
+      <div class="mt-5"></div>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -67,16 +67,37 @@
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    <h1>Hello, world!</h1>
+      <section id=sobre>
+        <div class="row">
+          <h1 class="text-center">Sobre</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloribus culpa itaque ipsam totam optio fugit animi dicta omnis aliquid!</p>
+          </div>
+          <div class="col-md-8">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit obcaecati nisi quaerat neque veniam cupiditate inventore quod aliquam dolores perspiciatis dolor deserunt beatae unde recusandae, corrupti, sint repudiandae fugiat nihil voluptatibus iusto corporis illo amet consectetur. Dignissimos qui dolor fugit?</p>
+          </div>
+        </div>
+
+
+      </section>
+      <section id=competencia>
+
+      </section>
+      <section id=experiencia>
+
+      </section>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
